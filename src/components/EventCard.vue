@@ -11,10 +11,12 @@ import { ref } from "vue";
 </script>
 
 <template>
+  <RouterLink to="event/123">
   <div class="event-card">
     <h2>{{ event.title }}</h2>
     <span>@{{event.time}} on {{ event.date }}</span>
   </div>
+</RouterLink>
 </template>
 
 <style scoped>
